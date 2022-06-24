@@ -5,15 +5,14 @@ Source: https://www.hackingwithswift.com/100/swiftui
 
 ## Unit 1: Introduction to Swift (Review for Me)
 **Completed**
-- [x] Day 0-4
+- [x] Day 0-7
 
 **Currently**
-- [ ] Day 5
-    - [ ] Conditionals (easy)
-
+- [ ] Day 8
+    - [ ] Part 1
 
 **Left To Complete**
-- [ ] Day 4-15
+- [ ] Day x-15
 
 ## Unit 2: Introduction to SwiftUI
 **Completed**
