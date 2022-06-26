@@ -74,3 +74,7 @@ Source: https://www.hackingwithswift.com/100/swiftui
 Other Relevant Links for the Future:
   * https://www.hackingwithswift.com/career-guide (iOS Career+Interview Resource.)
   * https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer (Contains many links to other notable sources.)
+  * https://www.hackingwithswift.com/interview-questions (Interview Prep)
+  * https://www.reddit.com/r/iOSProgramming/comments/66jovq/what_questions_dig_you_get_during_your_ios/ (Interview topics)
+  * https://github.com/onthecodepath/iOS-Interview-Questions#debugging (Swift interview q+answers)
+  * https://github.com/DenisLitvin/iOS-Interview (whiteboard questions)

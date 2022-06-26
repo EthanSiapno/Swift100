@@ -1,5 +1,6 @@
 # Unit 1
 Introduction to Swift & Syntax (Review for Me)
+Note: Skipping on the first few projects/checkpoints because this unit is mostly oriented around introducing syntax (i.e. concepts I familiar with but reviewing)
 
 **Prologue**
 - [x] Day 0
@@ -12,7 +13,7 @@ Introduction to Swift & Syntax (Review for Me)
 - [x] Day 5
 - [x] Day 6
 - [x] Day 7 
-- [ ] Day 8
+- [x] Day 8
 - [ ] Day 9
 - [ ] Day 10
 - [ ] Day 11
@@ -24,9 +25,22 @@ Introduction to Swift & Syntax (Review for Me)
 **Consolidation**
 - [ ] Day 15
 
+**Code**
+- [x] Checkpoint 4
+
 
 ## Notable Notes:
 * Enums
 * Case+Switch Statements
 * Continue (and breaks) in loops
 * Tuples and Sets
+* Customizing function parameter labels
+  * Omit (\_)
+    * Removes the parameter when calling the function
+  * for
+    * Replaces the first parameter with the key word 'for'
+  * Overall adds readability
+* Error handling
+  * Do, Catch, and Try
+    * Try implies that the function can throw a function, whereas not using try on a function means that the function should not be capable of throwing an error.
+* 
