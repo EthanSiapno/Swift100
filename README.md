@@ -1,9 +1,12 @@
 # Swift100
-My own attempts to rush refreshing on Swift and SwiftUI.
+My personal journey of HackingWithSwift 100 Days of SwiftUI.
+
+This serves as a means to both relearn Swift and learn SwiftUI, which I have previously not interacted with before. This is especially crucial as at this time my personal career aspirations is to pursue a career in iOS mobile development. I do have a lot of experience with Python and JavaScript throughout my college tenure, but this serves as a means to acclimate myself further with the iOS development ecosystem.
 
 Source: https://www.hackingwithswift.com/100/swiftui
 
 ## Unit 1: Introduction to Swift (Review for Me)
+# Current Unit
 **Completed**
 - [x] Day 0-7
 

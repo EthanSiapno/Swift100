@@ -5,7 +5,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 **Prologue**
 - [x] Day 0
 
-**Currently**
+**Lectures**
 - [x] Day 1
 - [x] Day 2
 - [x] Day 3
@@ -15,18 +15,25 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 7 
 - [x] Day 8
 - [ ] Day 9
+  - [x] p1
+  - [ ] p2
+  - [ ] p3
 - [ ] Day 10
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
-- [ ] Day 15
 
 **Consolidation**
 - [ ] Day 15
 
 **Code**
 - [x] Checkpoint 4
+- [ ] Checkpoint 5
+- [ ] Checkpoint 6
+- [ ] Checkpoint 7
+- [ ] Checkpoint 8
+- [ ] Checkpoint 9
 
 
 ## Notable Notes:
@@ -43,4 +50,10 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Error handling
   * Do, Catch, and Try
     * Try implies that the function can throw a function, whereas not using try on a function means that the function should not be capable of throwing an error.
-* Closures (hard)
+* Closures (see day 9 for hella notes)
+  * So much info
+  * Can be used to add custom sorting via .sorted(by: __SORTING_CLOSURE__)
+  * 'in' as a keyword to show the parameters of a closure, since the parameters are within the curly brackets
+  * $0 and $1 as shorthand for string inputs in sorting closures to GREATLY reduce clutter
+  * 
+  
