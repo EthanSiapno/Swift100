@@ -43,4 +43,4 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Error handling
   * Do, Catch, and Try
     * Try implies that the function can throw a function, whereas not using try on a function means that the function should not be capable of throwing an error.
-* 
+* Closures (hard)
