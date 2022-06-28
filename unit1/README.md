@@ -14,10 +14,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 6
 - [x] Day 7 
 - [x] Day 8
-- [ ] Day 9
-  - [x] p1
-  - [ ] p2
-  - [ ] p3
+- [x] Day 9
 - [ ] Day 10
 - [ ] Day 11
 - [ ] Day 12
@@ -29,7 +26,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 
 **Code**
 - [x] Checkpoint 4
-- [ ] Checkpoint 5
+- [x] Checkpoint 5
 - [ ] Checkpoint 6
 - [ ] Checkpoint 7
 - [ ] Checkpoint 8
@@ -46,6 +43,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
     * Removes the parameter when calling the function
   * for
     * Replaces the first parameter with the key word 'for'
+  * Default parameter values
   * Overall adds readability
 * Error handling
   * Do, Catch, and Try
@@ -54,6 +52,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
   * So much info
   * Can be used to add custom sorting via .sorted(by: __SORTING_CLOSURE__)
   * 'in' as a keyword to show the parameters of a closure, since the parameters are within the curly brackets
-  * $0 and $1 as shorthand for string inputs in sorting closures to GREATLY reduce clutter
-  * 
+  * $0, $1, $x as shorthand for string inputs in sorting closures to GREATLY reduce clutter
+  * Closures apply greatly to .filter and .map as well as a majority of SwiftUI (next unit)
+  
   
