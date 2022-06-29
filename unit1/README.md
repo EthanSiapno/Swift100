@@ -39,7 +39,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Continue (and breaks) in loops
 * Tuples and Sets
 * Customizing function parameter labels
-  * Omit (\_)
+  * Omit '\_'
     * Removes the parameter when calling the function
   * for
     * Replaces the first parameter with the key word 'for'
@@ -54,5 +54,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
   * 'in' as a keyword to show the parameters of a closure, since the parameters are within the curly brackets
   * $0, $1, $x as shorthand for string inputs in sorting closures to GREATLY reduce clutter
   * Closures apply greatly to .filter and .map as well as a majority of SwiftUI (next unit)
+* Functions as parameters
+  * See day 9 part 3 for notes.
   
   
