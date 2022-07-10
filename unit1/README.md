@@ -15,7 +15,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 7 
 - [x] Day 8
 - [x] Day 9
-- [ ] Day 10
+- [x] Day 10
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
@@ -56,5 +56,14 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
   * Closures apply greatly to .filter and .map as well as a majority of SwiftUI (next unit)
 * Functions as parameters
   * See day 9 part 3 for notes.
+* Structs
+  * Computed properties
+    * TLDR functions but as properties
+  * Identifying property changes
+    * didSet
+    * willSet
+  * Custom Initializer
+    * Extension to keep the default memberwise initialiser AND add a custom
+  * 
   
   
