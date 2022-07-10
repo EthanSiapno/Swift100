@@ -64,6 +64,9 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
     * willSet
   * Custom Initializer
     * Extension to keep the default memberwise initialiser AND add a custom
+  * Using 'mutating' func key word for functions that alter the stored values of properties
+  * Static properties+methods
+    * Applies to the struct itself rather than all of the instances
   * 
   
   
