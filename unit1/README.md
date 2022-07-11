@@ -16,7 +16,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 8
 - [x] Day 9
 - [x] Day 10
-- [ ] Day 11
+- [x] Day 11
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
@@ -27,7 +27,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 **Code**
 - [x] Checkpoint 4
 - [x] Checkpoint 5
-- [ ] Checkpoint 6
+- [x] Checkpoint 6
 - [ ] Checkpoint 7
 - [ ] Checkpoint 8
 - [ ] Checkpoint 9
@@ -67,6 +67,12 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
   * Using 'mutating' func key word for functions that alter the stored values of properties
   * Static properties+methods
     * Applies to the struct itself rather than all of the instances
-  * 
+* Classes
+  * Reference types unlike structs
+  * deinit to clear up memory space
+  * Always requires custom init() and/or default property values
+  * Inheritance
+    * Subclass must call super.init
+  * 'mutating' keyword not used unlike structs 
   
   
