@@ -56,6 +56,14 @@ class Persian: Cat {
 }
 
 let Persia = Persian(legs: 4, isTame: true)
-Persia.speak()
+Persia.speak() // ... 
 let Mufasa = Lion(legs: 4, isTame: false)
-Mufasa.speak()
+Mufasa.speak() // Roar
+let kitty = Cat(legs: 4, isTame: true)
+kitty.speak() // Meow
+let Pood = Poodle(legs: 4)
+Pood.speak() // Bark
+let Corg = Corgi(legs: 4)
+Corg.speak() // Arf
+let Dawg = Dog(legs: 4)
+Dawg.speak() // Ruff

@@ -17,7 +17,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 9
 - [x] Day 10
 - [x] Day 11
-- [ ] Day 12
+- [x] Day 12
 - [ ] Day 13
 - [ ] Day 14
 
@@ -28,7 +28,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Checkpoint 4
 - [x] Checkpoint 5
 - [x] Checkpoint 6
-- [ ] Checkpoint 7
+- [x] Checkpoint 7
 - [ ] Checkpoint 8
 - [ ] Checkpoint 9
 
@@ -73,6 +73,16 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
   * Always requires custom init() and/or default property values
   * Inheritance
     * Subclass must call super.init
+    * 'override' existing functions for subclasses
+    * key word 'final' to prevent the creation of additional subclasses
   * 'mutating' keyword not used unlike structs 
-  
-  
+* Protocols
+  * 'Contracts' (maybe similar to Java interfaces?)
+  * Provides a blueprint/skeleton of a 'bare minimum' for classes, regarding properties and methods
+* Opaque return types
+  * 
+* Extensions
+  * 
+* Protocol Extensions 
+  * 
+
