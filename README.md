@@ -5,76 +5,25 @@ This serves as a means to both relearn Swift and learn SwiftUI, which I have pre
 
 Source: https://www.hackingwithswift.com/100/swiftui
 
-## Unit 1: Introduction to Swift (Review for Me)
-# Current Unit
-**Completed**
-- [x] Day 0-7
+## Completed Units
+- [ ] (Almost done reviewing unit 1; day 13 now)
 
-**Currently**
-- [ ] Day 8
-    - [ ] Part 1
+## Current Unit
+- [ ] Unit 1: Introduction to Swift (Days 0-15)
 
-**Left To Complete**
-- [ ] Day x-15
-
-## Unit 2: Introduction to SwiftUI
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 16-25
-
-## Unit 3: Expanding Skills
-**Completed**
-- [x] None
+## Units To-Complete
+- [ ] Unit 2: Introduction to SwiftUI (Days 16-25)
+- [ ] Unit 3: Expanding Skills (Days 26-35)
+- [ ] Unit 4: Scaling to Bigger Apps (Days 36-48)
+- [ ] Unit 5: Focusing on Data (Days 49-61)
+- [ ] Unit 6: Views and ViewController (Days 62-78)
+- [ ] Unit 7: Controlling UI Flow (Days 79-95)
+- [ ] Unit 8: One Final Project (Days 96-100 + Epilogue)
 
 
-**Left To Complete**
-- [ ] Day 26-35
 
-## Unit 4: Scaling to Bigger Apps
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 36-48
-
-## Unit 5: Focusing on Data
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 49-61
-
-## Unit 6: Views and ViewController
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 62-78
-
-## Unit 7: Controlling UI Flow
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 79-95
-
-## Unit 8: One Final Project
-**Completed**
-- [x] None
-
-
-**Left To Complete**
-- [ ] Day 96-100
-- [ ] Epilogue
-
-Other Relevant Links for the Future:
+### Other Relevant Links for the Future:
+  * https://www.hackingwithswift.com/quick-start/swiftui (SwiftUI Expanded Cheat Sheet)
   * https://www.hackingwithswift.com/career-guide (iOS Career+Interview Resource.)
   * https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer (Contains many links to other notable sources.)
   * https://www.hackingwithswift.com/interview-questions (Interview Prep)

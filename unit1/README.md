@@ -18,7 +18,7 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 10
 - [x] Day 11
 - [x] Day 12
-- [ ] Day 13
+- [x] Day 13
 - [ ] Day 14
 
 **Consolidation**
@@ -41,8 +41,8 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Customizing function parameter labels
   * Omit '\_'
     * Removes the parameter when calling the function
-  * for
-    * Replaces the first parameter with the key word 'for'
+  * for/in
+    * Replaces the first parameter with the key word 'for'/'in'
   * Default parameter values
   * Overall adds readability
 * Error handling
@@ -79,10 +79,21 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Protocols
   * 'Contracts' (maybe similar to Java interfaces?)
   * Provides a blueprint/skeleton of a 'bare minimum' for classes, regarding properties and methods
-* Opaque return types
-  * 
+  * For properties
+    * Must declare with 'var'
+    * Must define if it is readable '{get}' or readable+writeable '{get set}' (no comma between get and set btw)
+* Opaque return types (review this again maybe)
+  * 'some' keyword to declare return type in a concise manner
+    * Most used e.g. 'some View' -->  “this is going to send back some kind of view to lay out, but I don’t want to write out the exact thing – you figure it out for yourself.”
 * Extensions
-  * 
+  * Affords you to add more functionality to already existing types, even including Apple's already existing built-in types e.g. String, Array
+  * Extensions may offer more affordances of convenience compared to global functions
+    * Using . (period) brings up all the functions that exist of a certain type, including your extended functions
+      * Global functions in comparison are harder to find / keep track of / manage, especially if you write many functions
+    * Allows you to access internal properties / data of that type
+  * If you add properties, must always be computed properties; never stored properties
+  * Extensions allow you to keep memberwise initializers by writing custom initializers in an Extension
+  * Can **NOT** override existing methods/properties via extensions
 * Protocol Extensions 
-  * 
-
+  * Applying/Building an Extension on the Protocol type
+  * Can build protocol extensions to create 'default' outputs for protocol functions
