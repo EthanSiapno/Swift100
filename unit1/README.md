@@ -19,19 +19,21 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 - [x] Day 11
 - [x] Day 12
 - [x] Day 13
-- [ ] Day 14
+- [x] Day 14
 
 **Consolidation**
-- [ ] Day 15
+- [x] Day 15
 
 **Code**
 - [x] Checkpoint 4
 - [x] Checkpoint 5
 - [x] Checkpoint 6
 - [x] Checkpoint 7
-- [ ] Checkpoint 8
-- [ ] Checkpoint 9
+- [x] Checkpoint 8
+- [x] Checkpoint 9
 
+**Review** 
+- https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour
 
 ## Notable Notes:
 * Enums
@@ -41,8 +43,9 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Customizing function parameter labels
   * Omit '\_'
     * Removes the parameter when calling the function
-  * for/in
-    * Replaces the first parameter with the key word 'for'/'in'
+  * for/in / any other word
+    * Replaces the first parameter with the key word 'for'/'in' or any other word
+      * All you need to do is add a custom label before the actual parameter; iirc best for one parameter functions
   * Default parameter values
   * Overall adds readability
 * Error handling
@@ -97,3 +100,24 @@ Note: Skipping on the first few projects/checkpoints because this unit is mostly
 * Protocol Extensions 
   * Applying/Building an Extension on the Protocol type
   * Can build protocol extensions to create 'default' outputs for protocol functions
+* Optionals
+  * Using 'if let' statements to unwrap optionals (most common)
+    * Runs if optional **has** a value
+  * Unwrap with 'guard let ... else' (almost as common as 'if let')
+    * Runs if optional **doesn't have** a value (which explains the 'else')
+    * Often exists within a function such that one can 'return' the function to escape early
+  * if vs guard
+    * if is often more concise than guar
+    * guard makes it easier to focus / view the 'ideal / expected path'
+    * if to unwrap optionals, guard if checking conditions are correct before continuing
+  * nil Coalescing
+    * Uses '??' to provide a default value for any optional
+  * Optional chaining
+    * Readability
+  * Error/Failure handling via optionals
+    * Optional try (try?)
+      * Mainly used to check if a function succeeds or fails rather than why or what error type it throws. Otherwise main uses are:
+        * In combination with guard let to exit the current function if the try? call returns nil.
+        * In combination with nil coalescing to attempt something or provide a default value on failure.
+        * When calling any throwing function without a return value, when you genuinely don’t care if it succeeded or not – maybe you’re writing to a log file or sending analytics to a server, for example.
+      

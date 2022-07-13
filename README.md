@@ -6,13 +6,12 @@ This serves as a means to both relearn Swift and learn SwiftUI, which I have pre
 Source: https://www.hackingwithswift.com/100/swiftui
 
 ## Completed Units
-- [ ] (Almost done reviewing unit 1; day 13 now)
+- [x] Unit 1: Introduction to Swift (Days 0-15)
 
 ## Current Unit
-- [ ] Unit 1: Introduction to Swift (Days 0-15)
+- [ ] Unit 2: Starting SwiftUI (Days 16-25)
 
 ## Units To-Complete
-- [ ] Unit 2: Introduction to SwiftUI (Days 16-25)
 - [ ] Unit 3: Expanding Skills (Days 26-35)
 - [ ] Unit 4: Scaling to Bigger Apps (Days 36-48)
 - [ ] Unit 5: Focusing on Data (Days 49-61)
